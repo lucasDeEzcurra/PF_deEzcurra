@@ -1,6 +1,11 @@
 :root { 
     --first-color: rgb(147, 168, 143);
     --first-alpha-color : rgba(147, 168, 143, 0.758);
+    --second-color : rgba(207,222,226,255);
+}
+
+.bg-second-color {
+    background-color: var(--second-color);
 }
 
 body {
