@@ -1,0 +1,106 @@
+:root { 
+    --first-color: rgb(147, 168, 143);
+    --first-alpha-color : rgba(147, 168, 143, 0.758);
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+article img {
+    height: 17rem;
+}
+.card-body {
+    height: 10rem;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+.navbar-brand img {
+    width: auto;
+    height: 2rem;
+}
+
+.navbar-light .navbar-toggler {
+    --bs-navbar-toggler-focus-width: 0;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.60%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler:hover {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28147, 168, 143, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-item {
+    padding-left: 0.5rem;
+    transition: all 0.3s ease-in-out
+}
+
+.nav-item:hover {
+    background-color: var(--first-alpha-color);
+}
+
+.nav-link {
+    color: var(--first-color);
+    font-size: 1.1rem
+}
+.nav-link:hover {
+    color: var(--bs-white);
+}
+
+a {
+    color: var(--first-color);
+}
+
+a:hover {
+    color: var(--first-alpha-color);
+}
+
+.bg-primary-color {
+    background-color: var(--first-color);
+}
+.bg-primary-alpha-color {
+    background-color: var(--first-alpha-color);
+}
+.bg-image-main {
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+
+    .nav-item:hover {
+        background-color: transparent;
+    }
+    .nav-link:hover {
+        color: var(--first-alpha-color)
+    }
+    .nav-link {
+        color: #000;
+    }
+
+     .border-sm-top-0 {
+        border-top: 0 !important;
+    }
+
+    .border-sm-top {
+        border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1400px) {
+    
+}
