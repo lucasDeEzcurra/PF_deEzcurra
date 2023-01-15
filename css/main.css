@@ -10932,4 +10932,92 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.bg-second-color {
+  background-color: rgb(207, 222, 226);
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+article img {
+  height: 17rem;
+}
+
+.card-body {
+  height: 10rem;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.navbar-brand img {
+  width: auto;
+  height: 2rem;
+}
+
+.navbar-light .navbar-toggler {
+  --bs-navbar-toggler-focus-width: 0;
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.60%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler:hover {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28147, 168, 143, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-item {
+  padding-left: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.nav-item:hover {
+  background-color: rgba(147, 168, 143, 0.758);
+}
+
+.nav-link {
+  color: rgb(147, 168, 143);
+  font-size: 1.1rem;
+}
+.nav-link:hover {
+  color: var(--bs-white);
+}
+
+a {
+  color: rgb(147, 168, 143);
+}
+a:hover {
+  color: rgba(147, 168, 143, 0.758);
+}
+
+.bg-primary-color {
+  background-color: rgb(147, 168, 143);
+}
+
+.bg-primary-alpha-color {
+  background-color: rgba(147, 168, 143, 0.758);
+}
+
+.bg-image-main {
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 992px) {
+  .nav-item:hover {
+    background-color: transparent;
+  }
+  .nav-link {
+    color: #000;
+  }
+  .nav-link:hover {
+    color: rgba(147, 168, 143, 0.758);
+  }
+  .border-sm-top-0 {
+    border-top: 0 !important;
+  }
+  .border-sm-top {
+    border-top: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  }
 }/*# sourceMappingURL=main.css.map */
